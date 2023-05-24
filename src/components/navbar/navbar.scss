@@ -1,0 +1,73 @@
+.navbar{
+    height: 50px;
+    border-bottom: .5px solid lightgray;
+    padding:4px 0;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    .wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        //if we do not add border-box property it will overflow on x-axis because of our padding..
+        box-sizing: border-box;
+
+        .search{
+            display: flex;
+            align-items: center;
+            border: .5px solid lightgray;
+            padding: 3px;
+
+            input{
+                border: none;
+                outline: none;
+                background-color: transparent;
+
+                &::placeholder{
+                    font-size: 12px;
+                }
+            }
+        }
+        .items{
+            display: flex;
+            align-items: center;
+
+            .item{
+                display: flex;
+                align-items: center;
+                margin: 10px;
+                position: relative;
+
+                .icon{
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+
+                .avatar{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+
+                .counter{
+                    width: 15px;
+                    height: 15px;
+                    color: white;
+                    background-color: red;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 10px;
+                    font-weight: bold;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                }
+            }
+        }
+    }
+}
