@@ -31,5 +31,6 @@ Libraries and tools:
 <img alt="" src="https://github.com/hasanarpat/react-admin-panel/blob/master/public/Capture3.JPG"/>
 <br/><br/>
 <h2> Take a look inside.</h2>
-<img alt="" src="https://github.com/hasanarpat/react-admin-panel/blob/master/public
+
+<img alt="" src="https://github.com/hasanarpat/react-admin-panel/blob/master/public/gif.gif"/>
 </p>
