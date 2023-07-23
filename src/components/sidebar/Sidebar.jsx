@@ -30,9 +30,10 @@ const Sidebar = () => {
 			<div className="center">
 				<ul>
 					<p className="title">Main</p>
-					<li>
+					<li><Link to="/" style={{textDecoration:"none"}}>
 						<DashboardIcon className="icon" />
 						<span>Dashboard</span>
+						</Link>
 					</li>
 					<p className="title">List</p>
 					<Link to="/users" style={{textDecoration:"none"}}>
